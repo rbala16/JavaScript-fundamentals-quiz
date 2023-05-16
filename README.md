@@ -27,7 +27,7 @@ THEN I can save my initials and score
 MIT license
 
 ## Contribution:
-code from Scratch by Rajni bala
+HTML,CSS and Javascript code from Scratch by Rajni bala
 
 ## Deployment
 Link for my Deployed website: 
