@@ -50,7 +50,7 @@ var Allquestions =[
     option4 : "Number",
     correctanswer : "option-3",
   },
-//question2
+//question 2 
 {
   question:"What does API stands for?",
   option1: "Application Programming Interface",//option 1 is correct
