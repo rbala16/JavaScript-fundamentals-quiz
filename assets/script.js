@@ -17,7 +17,6 @@ var mainpage= document.getElementById("main-page");
 
 var highScoreDiv = document.getElementById("high-score-mainpage");
 
-// var mainpage= document.getElementById("main");
 
 var ViewHighScores = document.getElementById("view-high-scores");
 
@@ -51,7 +50,7 @@ var Allquestions =[
     option4 : "Number",
     correctanswer : "option-3",
   },
-//question2
+//question 2 
 {
   question:"What does API stands for?",
   option1: "Application Programming Interface",//option 1 is correct
@@ -167,7 +166,7 @@ SubmitBtn.addEventListener("click",function highscorefunction(){
 gameoverDiv.style.display = "none";
 highScoreDiv.style.display ="flex";
 ViewHighScores.style.display ="block";
-GameEndDiv.style.display="inline";
+
 
 savedscores.push(currrentscore);
 localStorage.setItem("savedscores",JSON.stringify(savedscores));
