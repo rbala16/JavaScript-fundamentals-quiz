@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif
+}
+button{
+  background-color: blueviolet;
+  padding:20px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+div{
+  margin: 30px;
+}
+input{
+  padding:20px;
+  border-radius: 20px;
+}
