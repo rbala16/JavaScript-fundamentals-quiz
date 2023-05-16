@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Fundamental Quiz</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header>
+    
+<div class="main">
+<!--main page-->
+  <div id="main-page">
+    <h2>Welcome to Javascript Fundamentals  </h2>
+    <P>Try to answer the following code-related questions within 
+      the time limit.Keep in mind that incorrect answers will penalize your score/time by 15 seconds!!
+    </P>
+    <!--start Quiz button-->
+<button id ="startquiz">Start Quiz</button>
+<button id="high-scores-button" onclick="showscores()">High Scores</button>
+  </div>
+</div>
+
+<!--timer-->
+<div id="time-left">
+  <div id="timer">Time Left</div>
+<div id="questions">questions</div>
+<!--questions list-->
+<button id="option-1" onclick="checkAnswer('option-1')">A</button>
+<button id="option-2" onclick="checkAnswer('option-2')">B</button>
+<button id="option-3" onclick="checkAnswer('option-3')">C</button>
+<button id="option-4" onclick="checkAnswer('option-4')">D</button>
+<div id="result"></div>
+</div>
+
+<div id="gameover">
+<!--input user initials-->
+<div id="totalScore"></div>
+<input type="text" size = "40" placeholder="Enter you initials here" name="intials" id="initials"/>
+<button id="submit">Submit</button>
+</div>
+<div id=high-score-mainpage>
+<div id="view-high-scores">
+<div id="highscore">
+<h3>User Initials</h3>
+<h3>Score</h3>
+</div>
+<div id = "score-initials"></div>
+<div id = "highscore-value"></div>
+</div>
+<div id="gameend ">
+  <!--button to restart quiz and clear scores-->
+<button id="playAgain" onclick="playagainQuiz()">Play Again</button>
+<button id="clearHighscore" onclick="clearAllScores()">Clear Highscores</button>
+</div>
+</div>
+</div>
+
+</div>
+  </header>
+  <script src="./assets/script.js"></script>
+</body>
+</html>
